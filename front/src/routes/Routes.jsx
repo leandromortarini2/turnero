@@ -8,7 +8,7 @@ export const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />}>
-        <Route index element={<RegisterAppointment />} />
+        <Route index element={<Screen />} />
         <Route path="/register-appointment" element={<RegisterAppointment />} />
         <Route path="/screen-appointment" element={<Screen />} />
         <Route path="/admin-appointment" element={<Admin />} />

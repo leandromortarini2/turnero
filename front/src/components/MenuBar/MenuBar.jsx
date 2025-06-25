@@ -2,18 +2,9 @@ import React from "react";
 import Menu from "./Menu";
 import { Link } from "react-router-dom";
 import { IoMdMedical } from "react-icons/io";
+import { date } from "../../utils/date";
 
 const MenuBar = () => {
-  let date = new Date().toLocaleString("es-AR", {
-    weekday: "long",
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-  });
-
   return (
     <div className="w-full  ">
       <div className="w-full bg-cyan-800 h-20 flex justify-between px-16 items-center uppercase ">
